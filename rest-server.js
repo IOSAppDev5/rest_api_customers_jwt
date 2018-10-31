@@ -218,5 +218,5 @@ app.delete("/customers/:id", function(req, resp){
 
 var port = process.env.PORT || 9090
 httpServer.listen(port, () => {
-    console.log("REST API server started");
+    console.log("Secure REST API server started at Port: " + port);
 });
